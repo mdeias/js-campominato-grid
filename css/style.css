@@ -39,6 +39,10 @@ header .left img{
     margin-right: 10px;
 }
 
+.right button, .right select{
+    padding: 0px 30px;
+}
+
 footer p{
     margin: 15px 0px 0px 270px;
 }
@@ -46,5 +50,31 @@ footer p{
 .container{
     width: 500px;
     height: 500px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
+
+.square{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.square.easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.square.hard{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.square.crazy{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
