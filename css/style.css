@@ -53,7 +53,7 @@ footer p{
     /* background-color: #fff; */
 }
 
-.square{
+.cella{
     float: left;
     display: flex;
     justify-content: center;
@@ -63,17 +63,17 @@ footer p{
     cursor: pointer;
 }
 
-.square.easy{
+.cella.easy{
     width: calc(100% / 10);
     height: calc(100% / 10);
 }
 
-.square.hard{
+.cella.hard{
     width: calc(100% / 9);
     height: calc(100% / 9);
 }
 
-.square.crazy{
+.cella.crazy{
     width: calc(100% / 7);
     height: calc(100% / 7);
 }
